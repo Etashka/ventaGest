@@ -1,0 +1,24 @@
+body{
+    background-image: url('../images/background.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.centered{
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+.formucolor{
+    max-width: 25em ;
+    padding: 1.3em ;
+    margin: 0 auto ;
+    background-color: rgbas(120, 119,123,0.3);
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px  22px 4px rgba(0,0,0,0.85);
+    backdrop-filter: blur(10px);
+}
