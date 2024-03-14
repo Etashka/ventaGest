@@ -14,3 +14,6 @@ Entorno de Desarrollo: XAMPP
 Frontend: HTML, CSS, JavaScript
 Backend: PHP
 Base de Datos: SQL Server
+
+
+Este proyecto está bajo la Licencia MIT 
