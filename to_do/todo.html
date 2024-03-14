@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="file:///C:/Users/nara/Desktop/Atento%202024/Proyectos/Taskify/to_do/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="board">
+        <form id="todo-form">
+            <input type="text" placeholder="New TODO" id="todo-input" />
+            <button type="submit">Add +</button>
+        </form>
+
+        <div class="lanes" id="todo-lane">
+            <div class="swim-lane">
+                <h3 class="heading">TODO</h3>
+
+                <p class="task" draggable="true"> Hacer maldades</p>
+                <p class="task" draggable="true"> Dar de comer a Luna</p>
+                <p class="task" draggable="true"> Hacer reir a mamá</p>
+            </div>
+
+            <div class="swim-lane">
+                <h3 class="heading">DOING</h3>
+                <p class="task" draggable="true"> aprender a hacer todo</p>
+                <p class="task" draggable="true"> escuchar la lluvia</p>
+                <p class="task" draggable="true"> Hacer reir a mamá</p>
+            </div>
+
+            <div class="swim-lane">
+                <h3 class="heading">SUCCESS</h3>
+                <p class="task" draggable="true"> Hacer maldades</p>
+                <p class="task" draggable="true"> Dar de comer a Luna</p>
+                <p class="task" draggable="true"> Hacer reir a mamá</p>
+            </div>
+        </div>
+        
+    </div>
+    <script src="file:///C:/Users/nara/Desktop/Atento%202024/Proyectos/Taskify/to_do/drag.js"></script>
+    <script src="file:///C:/Users/nara/Desktop/Atento%202024/Proyectos/Taskify/to_do/todo.js"></script>
+</body>
+</html>
